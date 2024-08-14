@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <img id="cabecalho__logo" src="/assets/logo-alura.svg" alt="logo da Alura">
+    </header>
+
+    <main class="main-container">
+        <section class="texto-deco">
+                <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+            <div class="container-aviso">
+                <img src="/assets/Group.svg" alt="exclamation-message">
+                <p class="texto-aviso">Apenas letras minúsculas e sem acento!</p>
+            </div>
+            <div class="container-botoes">
+                <button onclick="criptografar()" class="button-group">Criptografar</button>
+                <button onclick="descriptografar()" class="button-group" id="button-descrip">Descriptografar</button>
+            </div>
+        </section>
+        <section class="mostra-mensagem">
+            <div id="conteudo-mensagem">
+                <img src="/assets/High quality products 1 1.svg" alt="imagem ilustrativa da mensagem"
+                    class="conteudo__mensagem__img">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/bernardomb" target="_blank"
+                rel="noopener noreferrer">Bernardo Macedo</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
