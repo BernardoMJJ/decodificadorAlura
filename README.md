@@ -20,9 +20,9 @@ Este projeto é um simples codificador e decodificador de texto, desenvolvido pa
 
 ## Tecnologias Utilizadas
 
-- [Linguagem de Programação]
-- [Frameworks ou Bibliotecas]
-- [Outras Ferramentas]
+- [JavaScript]
+- [HTML]
+- [CSS]
 
 ## Instalação
 
