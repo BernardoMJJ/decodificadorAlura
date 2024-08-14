@@ -52,7 +52,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma _issue_ ou e
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-Esse modelo pode ser ajustado conforme as especificidades do seu projeto.
